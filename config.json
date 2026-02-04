@@ -1,0 +1,21 @@
+{
+  "customizations": {
+    "filesystem": [
+      {
+        "mountpoint": "/boot/efi",
+        "minsize": 536870912,
+        "type": "vfat"
+      },
+      {
+        "mountpoint": "/boot",
+        "minsize": 1073741824,
+        "type": "ext4"
+      },
+      {
+        "mountpoint": "/",
+        "minsize": 10737418240,
+        "type": "ext4"
+      }
+    ]
+  }
+}
